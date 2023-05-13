@@ -113,10 +113,10 @@
     display: flex;
     align-items: center;
     height: 68px;
-    background-color: aqua;
+    background-color: #fff;
 }
 
-/*B content-header */
+/*B content-header-options */
 .content-header-options{
     list-style: none;
     display: flex;
@@ -142,6 +142,7 @@
 }
 .content-header-list{
     display: flex;
+    margin-top:32px;
 }
 .content-header-options-item-left{
     margin-left: -12px;
@@ -151,5 +152,21 @@
 .content-header-options-item-right{
     margin-left: 570px;
     color: #212528;
+}
+/*E content-header-options */
 
+/*B content-header-date */
+.content-header-date{
+    display: flex;
+    margin-top: 32px;
+
+}
+.content-header-date-icon{
+    font-size: 32px;
+    padding-right: 16px;
+}
+#content-header-date-realtime{
+    color: #8f2624;
+    font-size: 20px;
+    font-weight: 800;
 }
