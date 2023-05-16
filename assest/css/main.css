@@ -166,10 +166,17 @@
     font-size: 32px;
     padding-right: 16px;
 }
+.container-header-date-info{
+    display: flex;
+}
+.container-header-date-info-select{
+    display: flex;
+}
 #container-header-date-realtime{
     color: #8f2624;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 800;
+    padding-right: 4px;
 }
 /*E container-header-date */
 
@@ -196,14 +203,22 @@
     height: 160px;
     cursor: pointer;
 }
+.content-main-image:hover{
+    opacity: 0.8;
+    transform: scale(1.01, 1.01);
+    overflow: hidden;
+    
+}
 .content-main-list{
     /* margin-top: 42px; */
 }
 .content-main-item-des{
     margin-top: 20px;
     font-size: 18px;
-    color: #2c323f;
+    height: 38px;
+    color: rgb(44, 50, 63);
     cursor: pointer;
+
 }
 .content-main-item-des:first::after{
     content: "";
@@ -219,8 +234,7 @@
 .content-main-item-info{
     display: flex;
     justify-content: space-between;
-    padding: 0 12px;
-    padding-top: 24px;
+    padding: 16px 12px 0px;
 }
 .content-main-item-info-detail{
     color: #5a5d61;
