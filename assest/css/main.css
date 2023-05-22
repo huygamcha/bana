@@ -319,6 +319,7 @@
 .info{
     background-color: #f5f5f5;
     height: 300px;
+    padding-bottom: 360px;
 }
 .info-main{
     background-color: #fff;
@@ -356,5 +357,66 @@
 }
 .info-main-policy-des{
     font-size: 18px;
+}
+/* E Info */
+/* B Contact */
+.contact-main{
+    box-shadow: 2px 2px 14px -2px #ccc;
+}
+.contact{
+    padding: 40px 0px 40px 0px;
+}
+.contact-name{
+    font-size: 18px;
+}
+.contact-detail{
+    display: flex;
+    margin-top: 16px;
+}
+.contact-des{
+    width: 230px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.contact-icon{
+    line-height: 23px;
+    font-size: 22px;
+    padding-right: 12px;
+}
+.contact-social{
+    list-style: none;
+    display: flex;
+}
+.contact-social-icon{
+    font-size: 34px;
+    padding: 0px 6px;
+}
+.contact-social-fa{
+    color: #1877f2
+}
+.contact-social-yt{
+    color: #D62424
+}
+.contact-social-ig{
+    color: #ce32a3
+}
+/* E Contact */
 
+/* B Footer */
+.footer{
+    height: 68px;
+    background-color: #8f2624;
+    display: flex;
+}
+.footer-logo{
+    width: 140px;
+}
+.footer-main{
+    display: flex;
+}
+.footer-policy{
+    color: #fff;
+}
+.footer-icon-up{
+    color: #fff;
 }
